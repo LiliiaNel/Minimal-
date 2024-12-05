@@ -1,1 +1,203 @@
+body {
+}
+.hide {
+  display: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+
+.page-header {
+}
+.page-nav {
+}
+.logo-header-icon {
+}
+.mobile-menu-btn {
+}
+.list-nav-menu {
+}
+.item-nav-menu {
+}
+.link-nav-menu {
+}
+.hero-section {
+}
+.hero-title {
+}
+.hero {
+}
+.text {
+}
+.hero-btn {
+}
+.about-us-section {
+}
+.about-us-title {
+}
+.common-text {
+}
+.about-capital-description {
+}
+.section-text {
+}
+.about-description {
+}
+.list-statistics {
+}
+.item-statistics {
+}
+.statistics-number {
+}
+.statistics-description {
+}
+.img-about-us {
+}
+.prices-section {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.prices-tbl {
+}
+.prices-tbl-row {
+}
+.prices-tbl-value {
+}
+.price-value {
+}
+.products-section {
+}
+.products-title {
+}
+.products-container {
+}
+.list-products {
+}
+.item-products {
+}
+.img-products {
+}
+.products-description {
+}
+.bestsellers-section {
+}
+.bestsellers-title {
+}
+.list-bestsellers {
+}
+.item-bestsellers {
+}
+.img-bestsellers {
+}
+.bestsellers-description {
+}
+.bestsellers-value {
+}
+.reviews-section {
+}
+.reviews-title {
+}
+.reviews-acticle {
+}
+.reviews-container {
+}
+.img-reviews-client {
+}
+.reviews-client-title {
+}
+.reviews-time {
+}
+.reviews-text {
+}
+.newsletter-section {
+}
+.newsletter-title {
+}
+.newsletter-text {
+}
+.newsletter-form {
+}
+.newsletter-lable {
+}
+.newsletter-form-field {
+}
+.newsletter-checkbox {
+}
+.newsletter-subscribe-text {
+}
+.newsletter-btn {
+}
+.img-newsletter {
+}
+.footer {
+}
+.logo-socials-box {
+}
+.logo-footer {
+}
+.list-social-media {
+}
+.item-social-media {
+}
+.link-social-media {
+}
+.social-media-icon {
+}
+.list-footer-menu {
+}
+.item-footer-menu {
+}
+.link-footer-menu {
+}
+.minimal-details {
+}
+.minimal-details-address {
+}
+.minimal-details-hours {
+}
+.list-minimal-contacts {
+}
+.item-minimal-contacts {
+}
+.link-minimal-contacts {
+}
+.footer-policy-statement {
+}
+.menu-close-btn {
+}
+.menu-close-icon {
+}
+.list-mobile-menu {
+}
+.item-mobile-menu {
+}
