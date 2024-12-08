@@ -29,7 +29,7 @@ svg {
   display: block;
 }
 .container {
-  max-width: 375px;
+  max-width: 391px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -163,16 +163,19 @@ svg {
   color: #0a224a;
 }
 .about-description {
+  margin-bottom: 30px;
 }
 .list-statistics {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  row-gap: 30px;
+  margin-bottom: 64px;
 }
 .item-statistics {
-  flex-basis: calc((100% - 60px) / 3);
+  max-width: 170px;
+  max-height: 161px;
 }
 .statistics-number {
   display: block;
@@ -181,6 +184,8 @@ svg {
   line-height: 1.5;
   text-transform: uppercase;
   color: #0a224a;
+  text-align: center;
+  padding-bottom: 14px;
 }
 .statistics-description {
   font-weight: 400;
@@ -190,8 +195,13 @@ svg {
   color: #0a224a;
 }
 .img-about-us {
+  width: 375px;
+  height: 400px;
+  margin: 0;
 }
 .prices-section {
+  background: #fff;
+  padding-bottom: 64px;
 }
 .visually-hidden {
   position: absolute;
@@ -206,57 +216,139 @@ svg {
   overflow: hidden;
 }
 .prices-tbl {
+  border-collapse: collapse;
+  width: 343px;
+  height: 408px;
 }
 .prices-tbl-row {
 }
+
 .prices-tbl-value {
+  border-bottom: 1px solid #0a224a;
 }
 .price-value {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: right;
+  color: #0a224a;
 }
 .products-section {
+  background: #fff;
 }
 .products-title {
+  text-align: center;
+  margin-bottom: 33px;
 }
 .products-container {
 }
 .list-products {
 }
 .item-products {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .img-products {
+  width: 343px;
+  height: 300px;
 }
 .products-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0a224a;
 }
 .bestsellers-section {
+  background: #fff;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .bestsellers-title {
+  text-align: center;
+  margin-bottom: 23px;
 }
 .list-bestsellers {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
 .item-bestsellers {
 }
 .img-bestsellers {
+  width: 343px;
+  height: 193px;
+}
+.bestsellers-dscr-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 14px;
+  max-width: 343px;
 }
 .bestsellers-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0a224a;
 }
 .bestsellers-value {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0a224a;
 }
 .reviews-section {
+  background: #f7faff;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 .reviews-title {
+  text-align: center;
+  margin-bottom: 30px;
 }
 .reviews-acticle {
+  background: #fff;
+  padding: 24px 23px 24px 24px;
 }
 .reviews-container {
+  display: flex;
+  gap: 14px;
 }
 .img-reviews-client {
 }
+.reviews-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 189px;
+}
 .reviews-client-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.77778;
+  text-transform: uppercase;
+  color: #0a224a;
 }
 .reviews-time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #0a224a;
+  opacity: 0.8;
+  text-align: left;
 }
 .reviews-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #0a224a;
+  padding-top: 24px;
+  display: inline-block;
+  min-width: 296px;
 }
+
 .newsletter-section {
 }
 .newsletter-title {
