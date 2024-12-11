@@ -21,5 +21,8 @@
     <symbol id="icon-alexandra" viewBox="0 0 32 32">
       <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z"/>
     </symbol>
+         <symbol id="icon-checkbox" viewBox="0 0 44 32">
+      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M39.333 5 15.5 28.833 4.667 18" />
+    </symbol>
   </defs>
 </svg>

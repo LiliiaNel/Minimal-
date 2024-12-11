@@ -350,32 +350,133 @@ svg {
 }
 
 .newsletter-section {
+  background: #fff;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .newsletter-title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 .newsletter-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0a224a;
+  margin-bottom: 30px;
 }
 .newsletter-form {
 }
-.newsletter-lable {
-}
+
 .newsletter-form-field {
+  border: 1px solid #b6b6b6;
+  padding: 11px 20px;
+  width: 343px;
+  height: 50px;
+
+  padding: 11px 20px;
+  margin-bottom: 20px;
 }
-.newsletter-checkbox {
+.newsletter-form-field::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #d9d9d9;
 }
+.checkbox-wrapper {
+  margin-bottom: 30px;
+}
+.newsletter-label-chbx {
+  display: flex;
+  gap: 8px;
+}
+
+.newsletter-checkbox-field {
+}
+
+.checkbox-mark {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  border: 1px solid #b6b6b6;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-checkbox {
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input[type="checkbox"]:checked + .newsletter-label-chbx > .checkbox-mark {
+  background-color: #0a224a;
+  fill: #fff;
+  border: none;
+}
+
+input[type="checkbox"] {
+  border: 1px solid #b6b6b6;
+  width: 25px;
+  height: 25px;
+}
+
+/* input[type="checkbox"]:checked
+  + .newsletter-label-chbx
+  > .checkbox-mark
+  > .icon-checkbox {
+  opacity: 1;
+  border: none;
+  fill: #fff;
+} */
+
 .newsletter-subscribe-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #7a7a7a;
 }
 .newsletter-btn {
+  padding: 17px 65px;
+  width: 224px;
+  height: 50px;
+  background: #0a224a;
+  color: #fff;
+  border: none;
+  margin-bottom: 30px;
 }
 .img-newsletter {
+  width: 343px;
+  height: 300px;
 }
+
+/* Footer */
 .footer {
+  background: #0a224a;
+  padding: 36px 16px 16px;
 }
+
+.footer.container {
+  min-height: 523px;
+}
+
 .logo-socials-box {
+  fill: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 127px;
 }
 .logo-footer {
 }
 .list-social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 .item-social-media {
 }
@@ -384,24 +485,58 @@ svg {
 .social-media-icon {
 }
 .list-footer-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 36px;
 }
 .item-footer-menu {
 }
 .link-footer-menu {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
 }
 .minimal-details {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  font-style: normal;
+  margin-bottom: 36px;
 }
 .minimal-details-address {
+  padding-bottom: 8px;
 }
 .minimal-details-hours {
 }
 .list-minimal-contacts {
 }
 .item-minimal-contacts {
+  padding-bottom: 8px;
 }
 .link-minimal-contacts {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: auto;
 }
+
 .footer-policy-statement {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+  display: inline-block;
 }
 .menu-close-btn {
 }

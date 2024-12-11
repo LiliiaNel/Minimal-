@@ -219,13 +219,20 @@
         Every week we will send you new designs and information about sales.
       </p>
       <form class="newsletter-form">
-        <lable class="newsletter-lable">name</lable>
-        <lable class="newsletter-lable">email</lable>
-        <lable class="newsletter-lable">checkbox</lable>
-        <input class="newsletter-form-field" type="text" name="user-name" id="userName" />
-        <input class="newsletter-form-field" type="email" name="user-email" id="userEmail" />
-        <input class="newsletter-checkbox" type="checkbox" name="user-agreement" id="userAgreement" />
-        <p class="newsletter-subscribe-text">Agree to subscribe to the newsletter</p>
+        <label class="newsletter-label" for="user-name"></label>
+        <input class="newsletter-form-field" type="text" name="user-name" id="userName" placeholder="Name"/>
+        <label class="newsletter-label" for="user-email"></label> 
+        <input class="newsletter-form-field" type="email" name="user-email" id="userEmail" placeholder="E-mail"/>
+        <div class="checkbox-wrapper">
+          <input class="newsletter-checkbox-field visually-hidden" type="checkbox" name="user-agreement" id="userAgreement" />
+          <label class="newsletter-label-chbx" for="user-agreement">
+        <span class="checkbox-mark"
+                ><svg class="icon-checkbox" width="13" height="13">
+                  <use href="./images/icons.svg#icon-checkbox"></use></svg
+              ></span>
+        <span class="newsletter-subscribe-text">Agree to subscribe to the newsletter</span>
+        </label>
+        </div>
         <button class="newsletter-btn" type="submit">Send</button>
       </form>
       <img class="img-newsletter" width="460px" height="410px"
@@ -270,12 +277,11 @@
         <p class="minimal-details-address">Obolonsky Prospect, 14, Kyiv</p>
         <p class="minimal-details-hours">Daily 10:00-21:00</p>
       </address>
-      <address>
+     
         <ul class="list-minimal-contacts">
           <li class="item-minimal-contacts"><a class="link-minimal-contacts" href="tel:+380669384758">+380669384758</a></li>
           <li class="item-minimal-contacts"><a class="link-minimal-contacts" href="tel:+380679384758">+380679384758</a></li>
         </ul>
-      </address>
       <p class="footer-policy-statement">
         By using this website, you agree to the Terms of Service and Privacy
         Policy
